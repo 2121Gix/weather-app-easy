@@ -1,8 +1,7 @@
 .App {
-  background-color: mediumslateblue;
-  width: 40%;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,113,109,1) 0%, rgba(36,177,168,1) 52%, rgba(0,212,255,1) 100%);
+  width: 30%;
   margin: auto;
-  border: 1px solid black;
   text-align: center;
 }
 
@@ -42,12 +41,14 @@
 }
 
 body{
-  background-color: darkcyan;
+  background: darkgray;
+  font-family: 'Alegreya';
+  
 }
 
 .location{
-  background-color: white;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .notfound{
@@ -55,16 +56,21 @@ body{
 }
 
 .wDataPrimary{
-  display: flex;
+  display: none;
   flex-direction: column;
 }
 
 .wDataSecondary{
+  padding: 10px;
   margin: 20px;
-  display: flex;
+  display: none;
   flex-direction: row;
   justify-content: space-between;
   background-color: lightgray;
   border-radius: 5px;
   font-size: small;
+}
+
+.infoTemperature{
+  font-size: large;
 }
